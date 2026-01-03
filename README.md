@@ -4,14 +4,14 @@ A Python-based network scanner that identifies devices and potential vulnerabili
 
 ## Features
 
-- ✅ Scans local network (192.168.x.x range)
-- ✅ Lists all connected devices with IP and MAC addresses
-- ✅ Identifies open ports on each device
-- ✅ Detects device types (router, phone, computer, IoT)
-- ✅ Flags common vulnerabilities
-- ✅ Shows results in clean, colored terminal output
-- ✅ Risk level assessment (High/Medium/Low)
-- ✅ Security recommendations
+- Scans local network (192.168.x.x range)
+- Lists all connected devices with IP and MAC addresses
+- Identifies open ports on each device
+- Detects device types (router, phone, computer, IoT)
+- Flags common vulnerabilities
+- Shows results in clean, colored terminal output
+- Risk level assessment (High/Medium/Low)
+- Security recommendations
 
 ## Prerequisites
 
@@ -59,7 +59,7 @@ nmap --version
 
 ## Usage
 
-### Primary Scanner (with Nmap) - FULLY FUNCTIONAL ✅
+### Primary Scanner (with Nmap) - FULLY FUNCTIONAL 
 ```bash
 python network_scanner_working.py
 ```
